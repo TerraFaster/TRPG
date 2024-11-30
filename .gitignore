@@ -1,0 +1,48 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore some other directories
+/.vscode/
+/install/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Ignore compiled static libraries
+*.lib
+*.a
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore other files
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
